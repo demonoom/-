@@ -1,0 +1,14 @@
+{
+  "name": "delivery",
+  "version": "1.0.0",
+  "description": "a epress delivery online",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "noom",
+  "license": "ISC",
+  "dependencies": {
+    "jquery": "^3.2.1"
+  }
+}
