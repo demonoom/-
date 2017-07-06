@@ -28,7 +28,6 @@ $(function () {
                 }
             });
         }))
-
     $('#submit').click(function () {
         var sub_data = {};
         sub_data.carrier_code = code;
@@ -49,7 +48,7 @@ $(function () {
         //sub_data.send_method = 'addOrderInfoMes';//普通发快递
         sub_data.send_method = 'addOrderInfoAsy';//异步发快递
         sub_data.isWaybill = 1;
-        sub_data.order_no = 20171005321900956591;
+        sub_data.order_no = 20171098322600956525;
         sub_data.sender_post_code = $('#post>div:eq(4)>input').val();
         sub_data.receiver_post_code = $('#get>div:eq(4)>input').val();
         $.ajax({
@@ -60,7 +59,7 @@ $(function () {
             success: function (data) {
                 $('.success').html(data.reason);
                 if (data.error_code == 0) {
-                    window.open('success.html?code=' + data.result.order_no + '&num=' + data.result.carrier_code + '')
+                    open('success.html?code=' + data.result.order_no + '&num=' + data.result.carrier_code,'_self');
                 }
             }
         });
