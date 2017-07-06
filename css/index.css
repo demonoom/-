@@ -1,6 +1,120 @@
 .wrap {
   width: 875px;
-  height: 1669px;
   margin: 0 auto;
-  background-color: #cccccc;
+  margin-top: 100px;
+  position: relative;
+  font-family: '微软雅黑';
+  font-size: 20px;
+}
+.wrap .tittle1 {
+  display: block;
+  width: 875px;
+  height: 40px;
+  background-image: url(../img/title.png);
+  position: absolute;
+  top: -25px;
+}
+.wrap .tittle1 i {
+  font-style: normal;
+  font-size: 20px;
+  color: #ffffff;
+  font-family: "微软雅黑";
+  position: absolute;
+  left: 120px;
+  top: 7px;
+}
+.wrap #choose {
+  text-align: center;
+  height: 100px;
+  line-height: 100px;
+  background-color: #fff;
+  margin-bottom: 80px;
+}
+.wrap #choose select {
+  font-family: '微软雅黑';
+  font-size: 20px;
+}
+.wrap .tittle2 {
+  display: block;
+  width: 875px;
+  height: 40px;
+  background-image: url(../img/title.png);
+  position: absolute;
+  top: 156px;
+}
+.wrap .tittle2 i {
+  font-style: normal;
+  font-size: 20px;
+  color: #ffffff;
+  font-family: "微软雅黑";
+  position: absolute;
+  left: 120px;
+  top: 7px;
+}
+.wrap .tittle3 {
+  display: block;
+  width: 875px;
+  height: 40px;
+  background-image: url(../img/title.png);
+  position: absolute;
+  top: 695px;
+}
+.wrap .tittle3 i {
+  font-style: normal;
+  font-size: 20px;
+  color: #ffffff;
+  font-family: "微软雅黑";
+  position: absolute;
+  left: 120px;
+  top: 7px;
+}
+.wrap #post,
+.wrap #get {
+  height: 460px;
+  background-color: #fff;
+  padding: 0 50px;
+  padding-top: 60px;
+  margin-bottom: 80px;
+}
+.wrap #post > div,
+.wrap #get > div {
+  margin-bottom: 30px;
+}
+.wrap #post > div input,
+.wrap #get > div input {
+  width: 570px;
+  height: 50px;
+  line-height: 50px;
+  padding: 10px;
+}
+.wrap #post > div > b,
+.wrap #get > div > b {
+  color: red;
+  padding: 0 8px;
+}
+.wrap #post > div .city-picker-span,
+.wrap #get > div .city-picker-span {
+  border: 1px solid #cccccc;
+}
+#submit {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 80px;
+  width: 450px;
+  height: 65px;
+  font-size: 25px;
+  color: #ffffff;
+  font-family: "微软雅黑";
+  background-color: #008BF6;
+  border-radius: 8.5px;
+}
+.success {
+  height: 100px;
+  line-height: 100px;
+  color: #000;
+  font-family: "微软雅黑";
+  font-size: 22px;
+  background-color: yellow;
+  margin-bottom: 80px;
+  text-align: center;
 }

@@ -1,0 +1,36 @@
+html,body,ul,li,img,a,p,div,form,input,h3 {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;/*取消点击后的那个颜色*/
+}
+input {
+    outline: none;/*取消输入框外边框*/
+    border: none;/*先将边框去掉再设置成自己的边框*/
+    border: 1px solid #cccccc;
+}
+/*2.添加新的样式*/
+.f_left{
+    float: left;
+}
+.f_right{
+    float: right;
+}
+.m_left10{
+    margin-left: 10px;
+}
+.m_right10{
+    margin-right: 10px;
+}
+.m_top10{
+    margin-top: 10px;
+}
+.clearfix::before,
+.clearfix::after{
+    content: "";
+    display: block;
+    height: 0;
+    line-height: 0px;
+    clear: both;
+    visibility: hidden;
+}
